@@ -1,6 +1,7 @@
 package me.rayzr522.altcooldown;
 
 import me.rayzr522.altcooldown.command.CommandAltCooldown;
+import me.rayzr522.altcooldown.listeners.PlayerListener;
 import me.rayzr522.altcooldown.utils.MessageHandler;
 import org.bukkit.command.CommandSender;
 import org.bukkit.configuration.file.YamlConfiguration;
@@ -33,6 +34,8 @@ public class AltCooldown extends JavaPlugin {
 
         // Set up commands
         getCommand("altcooldown").setExecutor(new CommandAltCooldown(this));
+
+        getServer().getPluginManager().registerEvents(new PlayerListener(this), this);
     }
 
     @Override

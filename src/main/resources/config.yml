@@ -1,0 +1,2 @@
+# How many seconds to wait before showing a join/quit message from the given IP address again.
+message-cooldown: 15
