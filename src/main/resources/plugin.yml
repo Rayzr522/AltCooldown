@@ -1,0 +1,12 @@
+main: me.rayzr522.altcooldown.AltCooldown
+
+name: ${project.name}
+description: ${project.description}
+version: ${project.version}
+author: Rayzr
+
+commands:
+  altcooldown:
+    description: The main command for AltCooldown.
+    # aliases: []
+    usage: "\u00A7cRayzr hecc'd something up."
