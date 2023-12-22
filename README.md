@@ -7,7 +7,3 @@ This is intended for servers where users may have several alts which they have j
 ## Installation
 
 Just grab the latest JAR from the [releases page](https://github.com/Rayzr522/AltCooldown/releases) and plop it into your plugins folder!
-
-## Join Me
-
-[![Discord Badge](https://github.com/Rayzr522/ProjectResources/raw/master/RayzrDev/badge-small.png)](https://rayzr.dev/join)
